@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://myarchin.github.io//github/atom.xml" rel="self"/>
-  <link href="http://myarchin.github.io//github/"/>
-  <updated>2013-09-05T16:50:57-07:00</updated>
-  <id>http://myarchin.github.io//github/</id>
+  <title><![CDATA[Thoughts on useless treasures]]></title>
+  <link href="http://myarchin.github.io//blog/atom.xml" rel="self"/>
+  <link href="http://myarchin.github.io//blog/"/>
+  <updated>2013-09-05T17:09:26-07:00</updated>
+  <id>http://myarchin.github.io//blog/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Mitch]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
