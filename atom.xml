@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Thoughts on useless treasures]]></title>
-  <link href="http://myarchin.github.io//blog/atom.xml" rel="self"/>
-  <link href="http://myarchin.github.io//blog/"/>
-  <updated>2013-09-06T12:38:16-07:00</updated>
-  <id>http://myarchin.github.io//blog/</id>
+  <link href="mohki.com/atom.xml" rel="self"/>
+  <link href="mohki.com/"/>
+  <updated>2013-09-06T12:40:45-07:00</updated>
+  <id>mohki.com/</id>
   <author>
     <name><![CDATA[Mitch]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[future video games]]></title>
-    <link href="http://myarchin.github.io//blog/blog/2013/09/05/future-video-games/"/>
+    <link href="mohki.com/blog/2013/09/05/future-video-games/"/>
     <updated>2013-09-05T17:34:00-07:00</updated>
-    <id>http://myarchin.github.io//blog/blog/2013/09/05/future-video-games</id>
+    <id>mohki.com/blog/2013/09/05/future-video-games</id>
     <content type="html"><![CDATA[<p>I&rsquo;ll probably use this blog for decent ramblings when I have them.</p>
 
 <p>I&rsquo;m sure this is a relief to you, my adoring fan, who fantasizes daily about my musings. I can see you now: on the edge of your seat, eagerly pondering what awesome thoughts lay cluttered behind my greasy eyeballs.</p>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://myarchin.github.io//blog/sitemap.xml 
+Sitemap: mohki.com/sitemap.xml 
