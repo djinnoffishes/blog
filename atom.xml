@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts on useless treasures]]></title>
   <link href="mohki.com/atom.xml" rel="self"/>
   <link href="mohki.com/"/>
-  <updated>2013-09-09T10:21:45-07:00</updated>
+  <updated>2013-09-19T14:53:56-07:00</updated>
   <id>mohki.com/</id>
   <author>
     <name><![CDATA[Mitch]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iTerm2 Left and Right shortcuts]]></title>
+    <link href="mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts/"/>
+    <updated>2013-09-19T11:22:00-07:00</updated>
+    <id>mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts</id>
+    <content type="html"><![CDATA[<p>If you haven&rsquo;t grabbed <a href="http://http://www.iterm2.com/">iTerm2</a> yet, do that. It&rsquo;s a sweet replacement for the OS X Terminal app.</p>
+
+<p>Anyway, you might notice that iTerm2 doesn&rsquo;t offer the standard OS X shortcuts for skipping to the next or previous word: Alt+Left arrow / Alt+Right arrow.</p>
+
+<p>Here&rsquo;s how you set that up without modifying ~/.zshrc or anything like that:</p>
+
+<ol>
+<li>Go to Preferences</li>
+<li>Click Profiles</li>
+<li>Add a new shortcut key (&ldquo;+&rdquo;)</li>
+<li>Under Keyboard shortcut, press option(alt) + left arrow key</li>
+<li>Under Action, select &ldquo;Send Escape Sequence&rdquo;</li>
+<li>Under Esc, input &ldquo;b&rdquo;</li>
+<li>Add a new shortcut key (&ldquo;+&rdquo;)</li>
+<li>Same steps as above, but input &ldquo;f&rdquo; instead of &ldquo;b&rdquo;</li>
+</ol>
+
+
+<p>Success!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[future video games]]></title>
