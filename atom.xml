@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Thoughts on useless treasures]]></title>
+  <title><![CDATA[thoughts]]></title>
   <link href="mohki.com/atom.xml" rel="self"/>
   <link href="mohki.com/"/>
-  <updated>2013-11-10T14:56:13-08:00</updated>
+  <updated>2013-11-10T15:02:21-08:00</updated>
   <id>mohki.com/</id>
   <author>
-    <name><![CDATA[Mitch]]></name>
+    <name><![CDATA[Mitch Yarchin]]></name>
     
   </author>
 
