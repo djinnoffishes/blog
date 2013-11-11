@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>mohki.com/blog/2013/09/05/future-video-games</loc>
+        <loc>http://mohki.com/blog/2013/09/05/future-video-games</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
     <url>
-        <loc>mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts</loc>
+        <loc>http://mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
     <url>
-        <loc>mohki.com/blog/2013/11/10/new-projects</loc>
+        <loc>http://mohki.com/blog/2013/11/10/new-projects</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
     <url>
-        <loc>mohki.com/blog/archives/</loc>
+        <loc>http://mohki.com/blog/archives/</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
     <url>
-        <loc>mohki.com/blog/</loc>
+        <loc>http://mohki.com/blog/</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
     <url>
-        <loc>mohki.com/</loc>
+        <loc>http://mohki.com/</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
     <url>
-        <loc>mohki.com/robots.txt</loc>
+        <loc>http://mohki.com/robots.txt</loc>
         <lastmod>2013-11-10T16:21:48-08:00</lastmod>
     </url>
 </urlset>

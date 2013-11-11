@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[thoughts]]></title>
-  <link href="mohki.com/atom.xml" rel="self"/>
-  <link href="mohki.com/"/>
-  <updated>2013-11-10T16:23:25-08:00</updated>
-  <id>mohki.com/</id>
+  <link href="http://mohki.com/atom.xml" rel="self"/>
+  <link href="http://mohki.com/"/>
+  <updated>2013-11-10T16:26:12-08:00</updated>
+  <id>http://mohki.com/</id>
   <author>
     <name><![CDATA[Mitch Yarchin]]></name>
     
@@ -14,9 +14,9 @@
   
   <entry>
     <title type="html"><![CDATA[new projects]]></title>
-    <link href="mohki.com/blog/2013/11/10/new-projects"/>
+    <link href="http://mohki.com/blog/2013/11/10/new-projects"/>
     <updated>2013-11-10T15:08:00-08:00</updated>
-    <id>mohki.com/blog/2013/11/10/new-projects</id>
+    <id>http://mohki.com/blog/2013/11/10/new-projects</id>
     <content type="html"><![CDATA[<p>Haven&rsquo;t posted in a while. Here&rsquo;s a quick list of my latest side projects:</p>
 
 <h3><a href="http://writz.mohki.com">writz.mohki.com</a> (coming soon)</h3>
@@ -35,9 +35,9 @@
   
   <entry>
     <title type="html"><![CDATA[iTerm2 Left and Right shortcuts]]></title>
-    <link href="mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts"/>
+    <link href="http://mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts"/>
     <updated>2013-09-19T11:22:00-07:00</updated>
-    <id>mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts</id>
+    <id>http://mohki.com/blog/2013/09/19/iterm2-left-and-right-shortcuts</id>
     <content type="html"><![CDATA[<p>If you haven&rsquo;t grabbed <a href="http://http://www.iterm2.com/">iTerm2</a> yet, do that. It&rsquo;s a sweet replacement for the OS X Terminal app.</p>
 
 <p>Anyway, you might notice that iTerm2 doesn&rsquo;t offer the standard OS X shortcuts for skipping to the next or previous word: Alt+Left arrow / Alt+Right arrow.</p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[future video games]]></title>
-    <link href="mohki.com/blog/2013/09/05/future-video-games"/>
+    <link href="http://mohki.com/blog/2013/09/05/future-video-games"/>
     <updated>2013-09-05T17:34:00-07:00</updated>
-    <id>mohki.com/blog/2013/09/05/future-video-games</id>
+    <id>http://mohki.com/blog/2013/09/05/future-video-games</id>
     <content type="html"><![CDATA[<p>I&rsquo;ll probably use this blog for decent ramblings when I have them.</p>
 
 <p>I&rsquo;m sure this is a relief to you, my adoring fan, who fantasizes daily about my musings. I can see you now: on the edge of your seat, eagerly pondering what awesome thoughts lay cluttered behind my greasy eyeballs.</p>
