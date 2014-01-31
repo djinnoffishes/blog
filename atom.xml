@@ -4,7 +4,7 @@
   <title><![CDATA[thoughts]]></title>
   <link href="http://mohki.com/atom.xml" rel="self"/>
   <link href="http://mohki.com/"/>
-  <updated>2014-01-31T15:34:49-08:00</updated>
+  <updated>2014-01-31T15:39:27-08:00</updated>
   <id>http://mohki.com/</id>
   <author>
     <name><![CDATA[Mitch Yarchin]]></name>
@@ -24,11 +24,8 @@
 
 <p>Basically, if you&rsquo;re working on a personal project and you switch to something for work, you might find the terminal complaining when you attempt to push your changes to Github:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Please make sure you have the correct access rights
-</span><span class='line'>and the repository exists.</span></code></pre></td></tr></table></div></figure>
-
+<blockquote><p>Please make sure you have the correct access rights
+and the repository exists.</p></blockquote>
 
 <p>Here is the simple solution for Mac users:</p>
 
