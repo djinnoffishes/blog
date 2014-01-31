@@ -1,11 +1,13 @@
 
 <!DOCTYPE HTML>
-<html lang="en-GB">
+<html>
 <head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
 	<title>future video games  | thoughts</title>
 
-	<meta name="author" content="Mitch Yarchin">
+<meta name="author" content="Mitch Yarchin"> 
 
 <meta name="description" content="A venture into the mind of a fairly average individual who likes stuff and thinks about things"> <meta name="keywords" content="">
 
@@ -17,53 +19,83 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
 	
-
 </head>
-
 
 
 <body>
 	<header id="header" class="inner"><h1><a href="/">thoughts</a></h1>
-<span class="tagline">on useless treasures</span>
-<!-- <nav id="main-nav"><ul>
+<h4>on useless treasures</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
 	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-	<li><a href="/contact">Contact</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
 </ul>
-</nav> -->
-<!-- <nav id="mobile-nav"> -->
-<!-- 	<div class="alignleft menu"> -->
-<!-- 		<a class="button">Menu</a> -->
-<!-- 		<div class="container"><ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
 	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-	<li><a href="/contact">Contact</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
 </ul>
-</div> -->
-<!-- 	</div> -->
-<!-- </nav> -->
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:mohki.com">
+			</form>
+		</div>
+	</div>
+</nav>
 
 
 </header>
 
 	<div id="content" class="inner"><article class="post">
-	<header>
-		<h2 class="title">Future Video Games</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-05T17:34:00-07:00" pubdate data-updated="true">Sep 5<span>th</span>, 2013</time></div>
-	</header>
+	<h2 class="title">Future Video Games</h2>
 	<div class="entry-content"><p>I&rsquo;ll probably use this blog for decent ramblings when I have them.</p>
 
 <p>I&rsquo;m sure this is a relief to you, my adoring fan, who fantasizes daily about my musings. I can see you now: on the edge of your seat, eagerly pondering what awesome thoughts lay cluttered behind my greasy eyeballs.</p>
@@ -82,32 +114,40 @@ People will show up at each others houses where they have &ldquo;terminals,&rdqu
 <p>That&rsquo;s all.</p>
 </div>
 
-</article>
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-05T17:34:00-07:00" pubdate data-updated="true">Sep 5<span>th</span>, 2013</time></div>
+	
+
 
 	
-	<div class="share">
-	  <!-- <ul> -->
-	  <!--   <li>
-  <a href="https://twitter.com/intent/tweet?text=future video games by @&url=http://mohki.com/blog/2013/09/05/future-video-games" title="Share future video games on Twitter">
-    <img src="/images/social/twitter.png" />
-  </a>
-</li>
- -->
-	  <!--   <li>
-  <a href="https://www.facebook.com/sharer.php?u=http://mohki.com/blog/2013/09/05/future-video-games" title="Share future video games on Facebook">
-    <img src="/images/social/facebook.png" />
-  </a>
-</li>
- -->
-	  <!--   <li>
-  <a href="https://plus.google.com/share?url=http://mohki.com/blog/2013/09/05/future-video-games" title="Share future video games on Google Plus">
-    <img src="/images/social/google.png" />
-  </a>
-</li>
- -->
-	  <!-- </ul> -->
-	</div>
+		<span class="comments"><a href="/blog/2013/09/05/future-video-games#disqus_thread">Comments</a></span>
+	
+</div></article>
 
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> --->
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
 
@@ -117,17 +157,20 @@ People will show up at each others houses where they have &ldquo;terminals,&rdqu
 </div>
 </section>
 </div>
-	<footer id="footer" class="inner"><br>
-<br>
-<br>
-<br>
-&copy; 2014
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
     Mitch Yarchin
 
+<br>
+Powered by Octopress.
 </footer>
 	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/hyphenator.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 <script type="text/javascript">
@@ -141,7 +184,7 @@ People will show up at each others houses where they have &ldquo;terminals,&rdqu
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
@@ -150,12 +193,5 @@ People will show up at each others houses where they have &ldquo;terminals,&rdqu
 
 
 
-
 </body>
-<script>
-  $(document).ready(function() {
-  // Make images center
-  $('p:has(img)').css('text-align', 'center');
-  });
-</script>
 </html>

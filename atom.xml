@@ -4,12 +4,13 @@
   <title><![CDATA[thoughts]]></title>
   <link href="http://mohki.com/atom.xml" rel="self"/>
   <link href="http://mohki.com/"/>
-  <updated>2014-01-31T15:30:22-08:00</updated>
+  <updated>2014-01-31T15:34:49-08:00</updated>
   <id>http://mohki.com/</id>
   <author>
     <name><![CDATA[Mitch Yarchin]]></name>
     
   </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
