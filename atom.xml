@@ -4,13 +4,76 @@
   <title><![CDATA[thoughts]]></title>
   <link href="http://mohki.com/atom.xml" rel="self"/>
   <link href="http://mohki.com/"/>
-  <updated>2013-11-10T16:26:12-08:00</updated>
+  <updated>2014-01-31T14:45:17-08:00</updated>
   <id>http://mohki.com/</id>
   <author>
     <name><![CDATA[Mitch Yarchin]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[switching ssh keys for github]]></title>
+    <link href="http://mohki.com/blog/2014/01/31/switching-ssh-keys-for-github"/>
+    <updated>2014-01-31T14:12:00-08:00</updated>
+    <id>http://mohki.com/blog/2014/01/31/switching-ssh-keys-for-github</id>
+    <content type="html"><![CDATA[<p>If you&rsquo;re like me and have many different projects + github accounts, but always use the same machine, chances are you&rsquo;ll have trouble switching back and forth between ssh keys.</p>
+
+<p>This process isn&rsquo;t succinctly described anywhere (sorry <a href="stackoverflow.com">StackOverflow</a>, but it&rsquo;s true), so let&rsquo;s walk through it.</p>
+
+<p>Basically, if you&rsquo;re working on a personal project and you switch to something for work, you might find the terminal complaining when you attempt to push your changes to Github:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Please make sure you have the correct access rights
+</span><span class='line'>and the repository exists.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here is the simple solution for Mac users:</p>
+
+<ul>
+<li>In your directory <code>USERNAME/.ssh/</code> there are a bunch of different files. The one named <code>id_rsa</code> is what will be used by default. If you have a different key for work (ie one that is not id_rsa), you will need to fix this.</li>
+<li>Open up the file <code>config</code> in that directory. If it doesn&rsquo;t exist, create it.</li>
+<li>Add the following to your config file (things in caps are what you need to provide.)</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>#work account
+</span><span class='line'>Host github.com-WORK_GITHUB_ACCOUNT
+</span><span class='line'>    HostName github.com
+</span><span class='line'>    User git
+</span><span class='line'>    IdentityFile ~/.ssh/WORK_KEY
+</span><span class='line'>
+</span><span class='line'>#private account
+</span><span class='line'>Host github.com-PRIVATE_GITHUB_ACCOUNT
+</span><span class='line'>    HostName github.com
+</span><span class='line'>    User git
+</span><span class='line'>    IdentityFile ~/.ssh/id_rsa</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Open up Terminal and navigate to the directory where you were trying to push new changes, but got the error.</li>
+<li>Type <code>ssh-add -l</code></li>
+<li>You will probably see id_rsa. Stupid default thing! Let&rsquo;s change it.</li>
+<li>Type <code>ssh-add -D</code> to prevent it from using that key.</li>
+<li>Type <code>ssh-add ~/.ssh/WORK_KEY</code> to make it use your work key.</li>
+</ul>
+
+
+<p>&hellip;Tada! So long as your WORK_KEY is indeed associated with your github account, this should let you switch between keys.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[new projects]]></title>
