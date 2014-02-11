@@ -4,7 +4,7 @@
   <title><![CDATA[thoughts]]></title>
   <link href="http://mohki.com/atom.xml" rel="self"/>
   <link href="http://mohki.com/"/>
-  <updated>2014-02-03T12:45:15-08:00</updated>
+  <updated>2014-02-11T11:37:54-08:00</updated>
   <id>http://mohki.com/</id>
   <author>
     <name><![CDATA[Mitch Yarchin]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[babies]]></title>
+    <link href="http://mohki.com/blog/2014/02/11/babies"/>
+    <updated>2014-02-11T10:48:21-08:00</updated>
+    <id>http://mohki.com/blog/2014/02/11/babies</id>
+    <content type="html"><![CDATA[<p>Yesterday my sister gave birth to Coral Eva Fitzgerald. She&rsquo;s so cute!</p>
+
+<center>
+  <img src="images/coral.jpg" width="300" height="371" title="Coral" >
+</center>
+
+
+<p>Holding a human being who&rsquo;s merely a few hours old brought about some serious existential ponderings. You wonder what such a tiny person could possibly think about beyond wondering at the sensory changes:
+&ndash; Sounds are suddenly much louder, less muffled.
+&ndash; Now there is light and she has the experience &ldquo;seeing&rdquo; for the first time.
+&ndash; Scent. What&rsquo;s that horrible smell? :)
+&ndash; Tactile changes: all the sudden she&rsquo;s no longer tightly wound up in a small space. Everything is open, free and there&rsquo;s less resistance her when she moves.</p>
+
+<p>What&rsquo;s even more interesting is her reaction to these new experiences. When I speak, her face twists into the most original human expressions of discomfort, confusion, and longing. When her mother speaks, she tilts her head in the direciton of the voice and I see a trace of recognition in the way she moves her eyebrows. Even at such a young age (zero days old), she already has spatial awareness and is developing emotions.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[switching ssh keys]]></title>
